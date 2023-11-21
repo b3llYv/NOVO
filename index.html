@@ -3,23 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Loja de roupas</title>
+<style>
+    body {
+        background-image:;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(253, 90, 226);
+        font-family: Arial, sans-serif;
+    }
+
+.login-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(255, 105, 230);
+    color: rgb(0, 0, 0);
+    border: none;
+    border: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+</style>
 </head>
 <body>
-    <header class="header">
-        <img src="/imagens/images.jpeg" alt="La tiendita">
-        <p>descricao</p>
-    </header>
-
-    <div class="main-content">
-        <h2>Bem-vindo a nossa loja!!</h2>
-        <p>Vendemos roupas incriveis pra voce. Descruba mais abaixo.</p>
+    <div class="login-container">
+    <h2>Bem vindo a nossa loja!</h2>
+    <p>Insira suas credenciais abaixo:</p>
+    <form>
+        <input type="email" name="email" placeholder="E-mail">
+        <input type="nome" name="nome" placeholder="Nome">
+        <button type="submit">Entrar</button>
+    <div>
+        <img src="imagens/images.jpeg">
     </div>
-
-    <footer class="footer">
-
-    </footer>
-
+    
+    </form>
+  </div>
 </body>
 </html>
